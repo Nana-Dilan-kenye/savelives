@@ -1,0 +1,79 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.redcolor{
+    color: #ff3000;
+}
+.redback{ 
+    background-color: #ff3000;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.homejumbo {
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+    
+}
+nav .navbar-nav .nav-item a{
+    color: #0b2154;
+    font-weight: 400;
+}
+
+.topimage{
+height: auto;
+border-radius: 45%;
+}
+
+.navbar-option-item:first-child {
+    margin-left: 0;
+}
+
+.navbar-option-item .btn1 {
+    font-size: 13px;
+    padding: 10px;
+
+}
+.navbar-option-item img {
+    flex: 0 0 14px;
+    -ms-flex: 0 1 auto;
+    max-width: 14px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.donorwork{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    margin-left: 40%;
+    /* margin-left: 50%; */
+}
+/* .modal{
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+} */

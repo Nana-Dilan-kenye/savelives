@@ -1,0 +1,108 @@
+*{box-sizing:border-box;}
+
+h1{
+    font-family: "Trirong", serif;
+}
+.form{
+    border-radius:30px;
+    box-shadow:5px 5px 30px 20px rgb(195, 195, 202); 
+}
+
+.button:hover{
+     color:rgb(255, 255, 255);
+     font-size:35px;
+     cursor:pointer;
+ }
+
+ .form a{
+     
+     color:blue;
+     font-size:20px;
+     text-decoration:none;
+
+ }
+
+.input{
+  border-radius:30px;
+  transition-duration: 0.3s;
+  
+}
+.redback{ 
+    background-color: #ff3000;
+}
+
+.marquee{
+    background-color: rgb(224, 79, 79);
+    color:rgb(13, 13, 126);
+}
+
+.visible{
+    color:yellow;
+    position:absolute;
+    margin-top:0px;
+    background-color:#222;
+  
+}
+th,td{
+    width:21.2%;
+    
+    padding:2%;
+    background-color:#777;
+   
+}
+tr{
+    padding:20px;
+    width:100%;
+   
+}
+th{
+    background-color:#222;
+    color:rgb(201, 29, 18)
+}
+h1{
+    color:#fff;
+    
+}
+p{
+    color:#fff;
+}
+
+
+.warningMessage{
+
+    padding:20px;
+    color:rgb(199, 119, 14);
+}
+
+
+.detailslogin a:hover{
+    color:#333;
+
+    color:rgb(10, 110, 77);
+}
+
+
+
+/*mobile phone    */
+@media only screen and (max-width:900px){
+   
+    table{
+         font-size: x-small;
+    }
+   .form{
+      
+       width:100%;
+       margin:0;
+   }
+    .input{
+        width:450px;
+    }
+    .input:hover{
+        width:469px;
+    }
+   .button:hover{
+       background-color:rgb(119, 117, 117);
+        color:blue;
+        font-size:30px;
+    }
+}

@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background-color: #666;
+}
+#main {
+    margin: 50px 0;
+  }
+  
+  #main #faq .card {
+    margin-bottom: 5px;
+    border: 0;
+  }
+  
+  #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #ff3000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    background: blue;
+    color: #fff;
+  }
+  
+  
+  #main #faq .card .collapsing {
+    line-height: 30px;
+  }
+  
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  
+  #main #faq .card .collapse.show {
+    line-height: 20px;
+  }
+
+  .accordion .card-header i{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 15px;
+    right: 1rem;
+}
