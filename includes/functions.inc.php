@@ -173,7 +173,14 @@ function Invaliduid($username){
         mysqli_stmt_execute($stmt);
         mysqli_stmt_close($stmt);
 
-        header("location:../signup.php?error=none");
+
+        $useruidExist= useruidExist($conn,$username,$username,$username);
+        
+        session_start();
+        $_SESSION["userId"]=$useruidExist["userId"];
+        $_SESSION["userName"]=$useruidExist["userName"];
+
+        header("location:../dashboard.php");
 
        
       }
